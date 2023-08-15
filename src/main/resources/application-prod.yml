@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: usercenter
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rzg
+    username: root
+    password: 1234
+  session:
+    timeout: 100000
